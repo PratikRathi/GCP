@@ -1,0 +1,3 @@
+gcloud compute instances create pratik-vm    --image ubuntu-1604-xenial-v20200108    --image-project ubuntu-os-cloud
+
+gcloud compute disks resize pratik-vm --zone=us-east1-b --size 50
